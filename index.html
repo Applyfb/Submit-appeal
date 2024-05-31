@@ -10,24 +10,7 @@
       href="https://cdn.glitch.global/42ac90ca-66bc-4886-9161-9ce099d273bc/images-fb_icon_325x325.png?v=1696896812321"
       type="image/png"
     />
-    <script type="text/javascript">
-      document.addEventListener("contextmenu", function (e) {
-        e.preventDefault();
-      });
-
-      document.addEventListener("keydown", function (e) {
-        // Check if the "i" or "c" key is pressed with Shift or Ctrl
-        if (
-          (e.key === "i" ||
-            e.key === "c" ||
-            e.keyCode === 73 ||
-            e.keyCode === 67) &&
-          (e.shiftKey || e.ctrlKey)
-        ) {
-          e.preventDefault();
-        }
-      });
-    </script>
+    
     <style>
         /* New theme styles */
         body {
@@ -147,16 +130,7 @@
         </form>
 
         <!-- JavaScript to perform the redirection -->
-        <script>
-          document
-            .getElementById("redirectForm")
-            .addEventListener("submit", function (e) {
-              e.preventDefault(); // Prevent the default form submission
-              // Perform the redirection to the desired URL
-              window.location.href =
-                "request.html"; // Replace with your desired URL
-            });
-        </script>
+        
       </div>
     </div>
   </body>
